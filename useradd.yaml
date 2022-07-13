@@ -1,0 +1,10 @@
+---
+-name: Useradd 
+ hosts: localhost
+  become: true
+  tasks:
+    - name: add user
+      user:
+        name: bob
+        uid: 2300
+        comment: "System admin" 
