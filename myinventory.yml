@@ -1,0 +1,7 @@
+---
+all:
+  hosts: 
+    hosts1:
+      host: 138.197.76.175
+    hosts2:
+      host: 157.245.10.68
