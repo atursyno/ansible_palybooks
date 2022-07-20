@@ -1,7 +1,11 @@
 ---
 all:
   hosts: 
-    hosts1:
-      host: 138.197.76.175
-    hosts2:
-      host: 157.245.10.68
+  children:
+    group1:
+      hosts:
+        10.108.0.3:
+    group2:
+      hosts:
+        10.108.0.4:
+        
